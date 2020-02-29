@@ -1,0 +1,15 @@
+/* Margins */
+$margins: 0, 4px, 8px, 12px;
+@each $m in $margins {
+  .m-#{$m} {
+    margin: $m;
+  }
+}
+
+/* Paddings */
+$paddings: 0, 4px, 8px, 12px;
+@each $p in $paddings {
+  .p-#{$p} {
+    padding: $p;
+  }
+}

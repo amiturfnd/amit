@@ -1,2 +1,2 @@
 import './javascripts/component1';
-import './styles/grid.scss';
+import './styles/main.scss';
