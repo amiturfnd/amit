@@ -1,15 +1,23 @@
 /* Margins */
-$margins: 0, 4px, 8px, 12px;
+$margins: 0, 4, 8, 12;
 @each $m in $margins {
   .m-#{$m} {
-    margin: $m;
+    margin: #{$m}px;
   }
 }
 
 /* Paddings */
-$paddings: 0, 4px, 8px, 12px;
+$paddings: 0, 4, 8, 12;
 @each $p in $paddings {
   .p-#{$p} {
-    padding: $p;
+    padding: #{$p}px;
   }
+  .pl-#{$p} {
+    padding-left: #{$p}px;
+  }
+}
+
+/* Backgrounds */
+.bg-white {
+  background-color: $white;
 }
